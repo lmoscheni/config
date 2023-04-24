@@ -1,0 +1,131 @@
+{
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"breadcrumbs.enabled": true,
+	"breadcrumbs.filePath": "on",
+	"breadcrumbs.symbolPath": "off",
+	"cSpell.userWords": [
+		"autofetch",
+		"dbaeumer",
+		"Everforest",
+		"Fira",
+		"indenticator",
+		"jetbrains",
+		"Meslo",
+		"rgba"
+	],
+	"debug.allowBreakpointsEverywhere": true,
+	"debug.console.fontSize": 14,
+	"debug.terminal.clearBeforeReusing": true,
+	"editor.accessibilitySupport": "off",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.cursorStyle": "block-outline",
+	"editor.definitionLinkOpensInPeek": true,
+	"editor.foldingImportsByDefault": true,
+	"editor.fontFamily": "'Dank Mono Regular', 'JetBrains Mono', 'Fira Code', monospace",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	"editor.fontWeight": "400",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "modificationsIfAvailable",
+	"editor.glyphMargin": false,
+	"editor.guides.indentation": false,
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.indentSize": "tabSize",
+	"editor.inlineSuggest.enabled": true,
+	"editor.insertSpaces": false,
+	"editor.lineNumbers": "on",
+	"editor.matchBrackets": "never",
+	"editor.minimap.enabled": false,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.overviewRulerBorder": false,
+	"editor.quickSuggestionsDelay": 0,
+	"editor.scrollbar.vertical": "hidden",
+	"editor.suggestFontSize": 14,
+	"editor.tabCompletion": "on",
+	"editor.wordWrap": "on",
+	"errorLens.borderRadius": "0px 5em 5em 0px",
+	"errorLens.enabledInMergeConflict": false,
+	"errorLens.fontStyleItalic": true,
+	"errorLens.gutterIconsEnabled": true,
+	"errorLens.gutterIconsFollowCursorOverride": true,
+	"errorLens.messageBackgroundMode": "none",
+	"errorLens.messageTemplate": "■ $message",
+	"errorLens.margin": "2ch",
+	"errorLens.statusBarColorsEnabled": true,
+	"errorLens.statusBarIconsEnabled": true,
+	"errorLens.statusBarIconsUseBackground": true,
+	"errorLens.statusBarMessageEnabled": true,
+	"eslint.format.enable": true,
+	"eslint.lintTask.enable": true,
+	"files.associations": {
+		"*.mdx": "markdown"
+	},
+	"files.autoSave": "onFocusChange",
+	"git.autofetch": true,
+	"indenticator.color.dark": "rgba(255,255,255, 0.15)",
+	"indenticator.width": 0.1,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"notebook.breadcrumbs.showCodeCells": false,
+	"scm.inputFontSize": 14,
+	"search.globalFindClipboard": true,
+	"search.mode": "newEditor",
+	"search.quickOpen.history.filterSortOrder": "default",
+	"search.quickOpen.includeHistory": false,
+	"search.quickOpen.includeSymbols": true,
+	"search.searchEditor.reusePriorSearchConfiguration": false,
+	"search.seedOnFocus": true,
+	"search.seedWithNearestWord": true,
+	"search.showLineNumbers": true,
+	"search.smartCase": true,
+	"search.useGlobalIgnoreFiles": true,
+	"settingsSync.ignoredExtensions": [],
+	"svelte.enable-ts-plugin": true,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.fontFamily": "'MesloLGS NF', 'JetBrains Mono', monospace",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.tabs.enabled": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"window.commandCenter": true,
+	"window.dialogStyle": "custom",
+	"workbench.activityBar.visible": false,
+	"workbench.colorTheme": "Everforest Dark",
+	"workbench.editor.autoLockGroups": {
+		"mainThreadWebview-markdown.preview": true
+	},
+	"workbench.editor.closeOnFileDelete": true,
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.enablePreviewFromCodeNavigation": true,
+	"workbench.editor.enablePreviewFromQuickOpen": true,
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.showTabs": true,
+	"workbench.editorAssociations": {
+		"*.webb": "default"
+	},
+	"workbench.iconTheme": "vsc-jetbrains-icons-enhanced",
+	"workbench.list.defaultFindMode": "filter",
+	"workbench.productIconTheme": "icons-carbon",
+	"workbench.settings.editor": "json",
+	"workbench.tree.indent": 10
+}
