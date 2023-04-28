@@ -39,7 +39,8 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
-	"editor.cursorStyle": "block-outline",
+	"editor.cursorStyle": "line",
+	"editor.cursorWidth": 2,
 	"editor.definitionLinkOpensInPeek": true,
 	"editor.foldingImportsByDefault": true,
 	"editor.fontFamily": "'Dank Mono Regular', 'JetBrains Mono', 'Fira Code', monospace",
@@ -61,10 +62,12 @@
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.overviewRulerBorder": false,
 	"editor.quickSuggestionsDelay": 0,
+	"editor.renderWhitespace": "selection",
 	"editor.scrollbar.vertical": "hidden",
+	"editor.smoothScrolling": true,
 	"editor.suggestFontSize": 14,
 	"editor.tabCompletion": "on",
-	"editor.wordWrap": "on",
+	"editor.wordWrap": "off",
 	"errorLens.borderRadius": "0px 5em 5em 0px",
 	"errorLens.enabledInMergeConflict": false,
 	"errorLens.fontStyleItalic": true,
@@ -79,6 +82,9 @@
 	"errorLens.statusBarMessageEnabled": true,
 	"eslint.format.enable": true,
 	"eslint.lintTask.enable": true,
+	"explorer.compactFolders": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
 	"files.associations": {
 		"*.mdx": "markdown"
 	},
@@ -100,6 +106,7 @@
 	"search.showLineNumbers": true,
 	"search.smartCase": true,
 	"search.useGlobalIgnoreFiles": true,
+	"search.useIgnoreFiles": true,
 	"settingsSync.ignoredExtensions": [],
 	"svelte.enable-ts-plugin": true,
 	"terminal.integrated.cursorBlinking": true,
@@ -110,7 +117,7 @@
 	"window.commandCenter": true,
 	"window.dialogStyle": "custom",
 	"workbench.activityBar.visible": false,
-	"workbench.colorTheme": "Everforest Dark",
+	"workbench.colorTheme": "Rosé Pine",
 	"workbench.editor.autoLockGroups": {
 		"mainThreadWebview-markdown.preview": true
 	},
@@ -127,5 +134,9 @@
 	"workbench.list.defaultFindMode": "filter",
 	"workbench.productIconTheme": "icons-carbon",
 	"workbench.settings.editor": "json",
-	"workbench.tree.indent": 10
+	"workbench.tree.indent": 10,
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#fff",
+		"editorCursor.background": "#000"
+	}
 }

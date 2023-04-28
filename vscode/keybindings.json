@@ -1,0 +1,53 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+		"key": "cmd+p",
+		"command": "-editor.action.triggerParameterHints",
+		"when": "editorHasSignatureHelpProvider && editorTextFocus"
+	},
+	{
+		"key": "cmd+shift+0",
+		"command": "workbench.action.toggleActivityBarVisibility"
+	},
+	{
+		"key": "cmd+shift+1",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "cmd+1",
+		"command": "workbench.action.focusSideBar"
+	},
+	{
+		"key": "cmd+1",
+		"command": "workbench.action.toggleSidebarVisibility",
+		"when": "sideBarFocus"
+	},
+	{
+		"key": "cmd+shift+2",
+		"command": "workbench.action.toggleAuxiliaryBar"
+	},
+	{
+		"key": "enter",
+		"command": "list.select",
+		"when": "sideBarFocus"
+	},
+	{
+		"key": "escape",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "!editorTextFocus"
+	},
+	{
+		"key": "cmd+n",
+		"command": "explorer.newFile",
+		"when": "explorerViewletFocus"
+	},
+	{
+		"key": "cmd+shift+t",
+		"command": "workbench.action.terminal.toggleTerminal"
+	},
+	{
+		"key": "cmd+shift+e",
+		"command": "workbench.action.toggleSidebarVisibility",
+		"when": "sideBarFocus"
+	}
+]
